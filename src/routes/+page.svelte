@@ -1,2 +1,7 @@
-<h1 class="text-3xl font-bold underline text-green-600">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Hero from "../components/marketing/Hero.svelte";
+    import Features from "../components/marketing/Features.svelte";
+</script>
+
+<Hero />
+<Features />
