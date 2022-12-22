@@ -1,4 +1,6 @@
 <script>
+	import { prevent_default } from 'svelte/internal';
+
 	export let todoInput;
 	export let add;
 </script>
